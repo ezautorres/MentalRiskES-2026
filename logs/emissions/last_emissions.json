@@ -1,0 +1,14 @@
+{
+    "duration": 3.111117166998156,
+    "emissions": 9.500413981394644e-09,
+    "cpu_energy": 1.4938403816718672e-09,
+    "gpu_energy": 1.6363167187497313e-08,
+    "ram_energy": 8.724308311987745e-10,
+    "energy_consumed": 1.8729438400367956e-08,
+    "cpu_count": 11,
+    "gpu_count": 1,
+    "cpu_model": "Apple M3 Pro",
+    "gpu_model": "Apple M3 Pro",
+    "ram_total_size": 18.0,
+    "country_iso_code": "MEX"
+}
