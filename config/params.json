@@ -1,3 +1,4 @@
 {
-    "caguama": 5
+    "BASE_URL": "http://s3-ceatic.ujaen.es:8036",
+    "TOKEN": "621b7e38e2e4895f79ec9c56891b39c2"
 }

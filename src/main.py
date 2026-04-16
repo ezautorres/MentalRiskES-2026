@@ -9,11 +9,13 @@ from utils.config import (
     load_params,
     LoggerFactory,
 )
-from dataset.data import get_dataset
+#from data.data import DatasetManager
+from data.manager import DatasetManager
 
 # Load parameters.
 params = load_params()
-caguama = params["caguama"]
+base_url = params["BASE_URL"]
+token = params["TOKEN"]
 
 def main() -> None:
     
@@ -24,21 +26,20 @@ def main() -> None:
     # Parameters.
     logger.info(
         "\n=== Parameters ===\n"
-        "    Table out : %s\n"
-        "    Table out : %s\n"
-        "    Table out : %s\n"
-        "    Table out : %s\n",
-        caguama,
-        caguama,
-        caguama,
-        caguama,
+        "    BASE_URL : %s\n"
+        "    TOKEN    : %s\n",
+        base_url,
+        token,
     )
 
     try:
         
         # Dataset.
+        logger.info("Downloading dataset.")
+        dataset_manager = DatasetManager(base_url, token)
+        dataset_manager.download_dataset()
         logger.info("Loading dataset.")
-        a = get_dataset()
+        #a = dataset_manager.load_dataset()
         logger.info("Dataset loaded successfully.")
 
         # Inference process.

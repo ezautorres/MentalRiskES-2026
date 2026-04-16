@@ -1,12 +1,7 @@
-2026-04-11 23:04:53 | INFO | MentalRisk2026 : 
+2026-04-15 19:55:21 | INFO | MentalRisk2026 : 
 === Parameters ===
-    Table out : 5
-    Table out : 5
-    Table out : 5
-    Table out : 5
+    BASE_URL : http://s3-ceatic.ujaen.es:8036
+    TOKEN    : 621b7e38e2e4895f79ec9c56891b39c2
 
-2026-04-11 23:04:53 | INFO | MentalRisk2026 : Loading dataset.
-2026-04-11 23:04:53 | INFO | MentalRisk2026 : Dataset loaded successfully.
-2026-04-11 23:04:53 | INFO | MentalRisk2026 : Running model.
-2026-04-11 23:04:53 | INFO | MentalRisk2026 : Processing final information.
-2026-04-11 23:04:53 | INFO | MentalRisk2026 : Process completed successfully.
+2026-04-15 19:55:21 | INFO | MentalRisk2026 : Downloading dataset.
+2026-04-15 19:55:21 | ERROR | MentalRisk2026 : An error occurred: 404 Client Error: Not Found for url: http://s3-ceatic.ujaen.es:8036/task1/download_trial/621b7e38e2e4895f79ec9c56891b39c2
