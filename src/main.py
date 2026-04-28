@@ -9,8 +9,8 @@ from utils.config import (
     load_params,
     LoggerFactory,
 )
-#from data.data import DatasetManager
-from data.manager import DatasetManager
+from data.data import DatasetManager
+#from data.manager import DatasetManager
 
 # Load parameters.
 params = load_params()
